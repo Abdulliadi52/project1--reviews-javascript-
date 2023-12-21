@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Reviews using javascript</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+      integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"
+    />
+
+    <link rel="stylesheet" href="css/output.css" />
+  </head>
+  <body
+    class="flex flex-col items-center justify-center bg-black w-screen h-screen font-family1"
+  >
+    <section class="w-full flex flex-col items-center justify-center">
+      <div class="mb-10 flex flex-col items-center justify-center">
+        <h2 class="text-3xl font-semibold text-amber-700 tracking-widest mb-2">
+          0ur Reviews
+        </h2>
+        <div class="w-20 h-1 rounded-full bg-amber-500"></div>
+      </div>
+
+      <div
+        class="flex flex-col items-center justify-center bg-white px-5 py-5 text-center rounded-xl shadow-xl shadow-amber-300 w-w2 md:w-w3"
+        id="review"
+      >
+        <div class="w-w1 h-h1 rounded-radius1 relative mb-3" id="img-container">
+          <img
+            src="person-1.jpeg"
+            alt="person-1"
+            class="w-full h-full relative object-cover rounded-full"
+            id="img"
+          />
+        </div>
+        <h3
+          class="font-semibold text-xl mb-2 capitalize tracking-widest"
+          id="author"
+        >
+          Susan Smith
+        </h3>
+        <h4 class="font-bold mb-2 capitalize tracking-wider" id="job">
+          Web developer
+        </h4>
+        <p class="mb-2" id="text">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel ullam eos
+          tenetur dicta libero assumenda praesentium, laborum corrupti repellat
+          voluptas blanditiis culpa magni quod facere modi, repudiandae
+          cupiditate repellendus? Exercitationem?
+        </p>
+        <div class="flex items-center justify-center gap-4" id="btn-container">
+          <button class="prev-btn text-xl text-amber-500">
+            <i class="fa-solid fa-angle-left"></i>
+          </button>
+          <button class="next-btn text-xl text-amber-500">
+            <i class="fa-solid fa-angle-right"></i>
+          </button>
+        </div>
+        <button
+          class="random-btn border border-amber-400 px-3 py-1 mt-3 rounded-xl text-sm uppercase font-semibold text-amber-600 bg-amber-300 hover:text-amber-300 hover:bg-amber-600 transition ease-in-out duration-500"
+        >
+          surprise me
+        </button>
+      </div>
+    </section>
+    <script src="appp.js"></script>
+  </body>
+</html>
